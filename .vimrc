@@ -24,14 +24,19 @@ filetype plugin indent on
 se ruler
 syntax on
 se number
-se background=light
+se ruler
+se ic
+se background=dark
 se hls
-colorscheme desert
+colorscheme monokai
 set tabstop=4
 set shiftwidth=4
 set smarttab
 set expandtab
 set smartindent
+se list
+se listchars=tab:>-,trail:.,extends:>,precedes:<
+se colorcolumn=80
 let g:netrw_liststyle = 3
 let g:netrw_banner = 0
 let g:netrw_browse_split = 3
