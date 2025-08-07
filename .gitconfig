@@ -6,3 +6,4 @@
         up = add -u
         df = diff
         dfc = diff --cached
+        sub = submodule
