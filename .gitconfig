@@ -7,3 +7,8 @@
         df = diff
         dfc = diff --cached
         sub = submodule
+[diff]
+        tool = vimdiff
+[core]
+        pager = less -F -X
+        editor = vim
