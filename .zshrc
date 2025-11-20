@@ -68,9 +68,10 @@ ZSH_THEME="robbyrussell"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git vi-mode)
+plugins=(git vi-mode tmux docker)
 
 source $ZSH/oh-my-zsh.sh
+ZSH_TMUX_AUTOSTART=true
 
 # User configuration
 
@@ -99,3 +100,8 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export SHELL="/bin/bash" # for correct working ctrl+o for mc
+alias tmux="TERM=screen-256color tmux"
+alias k="kubectl"
+alias kubens="kubectl ns"
+alias kubectx="kubectl ctx"
+export LESS="-F -X $LESS"
