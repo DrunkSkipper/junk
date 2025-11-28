@@ -70,8 +70,8 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(git vi-mode tmux docker)
 
-source $ZSH/oh-my-zsh.sh
 ZSH_TMUX_AUTOSTART=true
+source $ZSH/oh-my-zsh.sh
 
 # User configuration
 
